@@ -15,11 +15,17 @@
 <body>
 <script src="https://open.ys7.com/sdk/js/1.1/ezuikit.js"></script>
 
-<video id="myPlayer" poster="" controls playsInline webkit-playsinline autoplay>
+<video width="320" height="240" id="myPlayer" poster="" controls playsInline webkit-playsinline autoplay>
     <source src="rtmp://rtmp.open.ys7.com/openlive/4c4b9bb3672d45f1934af5e7b9cc33b5" type="" />
     <source src="http://hls.open.ys7.com/openlive/4c4b9bb3672d45f1934af5e7b9cc33b5.m3u8" type="application/x-mpegURL" />
-
 </video>
+
+<video width="320" height="240" id="myPlayer2" poster="" controls playsInline webkit-playsinline autoplay>
+    <source src="rtmp://rtmp.open.ys7.com/openlive/4c4b9bb3672d45f1934af5e7b9cc33b5" type="" />
+    <source src="http://hls.open.ys7.com/openlive/4c4b9bb3672d45f1934af5e7b9cc33b5.m3u8" type="application/x-mpegURL" />
+</video>
+
+   
 
 <script>
     var player = new EZUIPlayer('myPlayer');
